@@ -1,25 +1,24 @@
-## 安装依赖
+## Install dependencies
 
 ```
 npm install
 ```
 
-## 应用启动
+## Application start
 
 ```
-//热刷新：SET DEBUG=myapp:* & npm run devstart
+//Hot refresh：SET DEBUG=myapp:* & npm run devstart
 
-// 普通启动 npm run start
+// Normal start npm run start
 ```
 
-默认端口3000
+Default port: 3000
 
-### 初始化数据库
+### Initialize the database
 
-调用接口
-
+Call interface
 
 ```
-    初始化列表数据：localhost:3000/index/add 
-    初始化登录用户数据：localhost:3000/users/add 
+    Initialization list data：localhost:3000/index/add
+    Initialize login user data：localhost:3000/users/add
 ```

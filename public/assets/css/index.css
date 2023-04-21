@@ -78,7 +78,7 @@ h2 {
   text-decoration: none;
   display: inline-block;
 }
-/* 更多搜索 */
+
 .mainsearch {
   padding: 30px;
   border: 1px solid #ccc;
@@ -109,20 +109,19 @@ h2 {
   box-sizing: border-box;
   display: inline-block;
 }
-.mainsearch input[type=range]::-webkit-slider-thumb {
+.mainsearch input[type='range']::-webkit-slider-thumb {
   width: 200px;
   -webkit-appearance: none;
   height: 25px;
   width: 25px;
   margin-top: -5px;
-  /*使滑块超出轨道部分的偏移量相等*/
+
   background: #ffffff;
   border-radius: 50%;
-  /*外观设置为圆形*/
+
   border: solid 0.125em rgba(205, 224, 230, 0.5);
-  /*设置边框*/
+
   box-shadow: 0 0.125em 0.125em #3b4547;
-  /*添加底部阴影*/
 }
 .mainsearch .submit {
   border: 1px solid #ccc;
@@ -136,7 +135,7 @@ h2 {
   text-decoration: none;
   display: inline-block;
 }
-/* 首页商品列表展示 */
+
 .indexbox {
   max-width: 1200px;
   width: 100%;
@@ -207,7 +206,6 @@ h2 {
   width: 120px;
 }
 .indexbox .form .box .reviews .line .txt {
-  /* 点击显示剩下的评论 */
 }
 .indexbox .form .box .reviews .line .txt .name {
   text-align: left;
@@ -246,7 +244,7 @@ h2 {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-/* 首页 Soldform */
+
 .Soldform,
 .Bestform {
   max-width: 600px;
@@ -272,7 +270,7 @@ h2 {
   line-height: 40px;
   text-align: left;
 }
-/* checkout页面 */
+
 #mytable {
   display: block;
   margin: auto;
@@ -283,7 +281,7 @@ h2 {
   margin: 30px auto;
   width: 200px;
 }
-/* profile */
+
 #userform {
   width: 900px;
   display: block;
@@ -323,7 +321,7 @@ h2 {
   width: 100%;
   border-radius: 4px;
 }
-/* manager */
+
 .manager .defaultbtn {
   width: 200px;
   height: 40px;
